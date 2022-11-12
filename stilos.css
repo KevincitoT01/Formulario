@@ -1,0 +1,11 @@
+body{
+    background-image: url(https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2013/11/Wallpaper-Monta%C3%B1as.jpg?fit=1200%2C800&quality=60&strip=all&ssl=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.color{
+    background-color: rgba(240, 248, 255, 0.329);
+    height: 700px;
+    width: 500px;
+}
