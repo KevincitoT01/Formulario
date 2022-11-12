@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trabajo</title>
+    <body> 
+        <center><h1 style="color:darkred;"> Registro</h1></center>
+        <form action="">
+            <center style="font-size:160%;">
+            <label for="firstname">Nombres</label><br>
+            <input type="text" name="firstname" id="firstname" autofocus required pattern="[A-Z a-z ]{1,100}"
+            placeholder="Ingrese su nombre"><br>
+            <label for="lastname">Apellidos</label><br>
+            <input type="text" name="lastname" id="lastname" autofocus required pattern="[A-Z a-z ]{1,100}"
+            placeholder="Ingrese su apellido"><br>
+            <label for="">Fecha de nacimiento</label><br>
+            <input type="date" name="nacimiento" id="nacimiento" required placeholder="^(?:0?[1-9]|1[1-2])([\-/.])(3[01]|[12][0-9]|0?[1-9])\1\d{4}$"><br>
+            <label for="submit">Email</label><br>
+            <input type="email" name="correo" id="correo" required placeholder="Ingrese su correo"><br>
+            <label for="contraseñas">Contraseña</label><br>
+            <input type="password" name="contraseña" id="contraseña" required placeholder="Minimo 8 cararteres"pattern="^(?=.*\d)(?=.*[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$"><br>
+            <label for="contraseñas">Confirme contraseña</label><br>
+            <input type="password" name="contraseña2" id="contraseña" required placeholder="Ingrese la contraseña"pattern="^(?=.*\d)(?=.*[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$"><br>
+            <label for="direcction">Dirección</label><br>
+            <input type="text" name="direcction" id="direcction" required placeholder="Direccion de vivienda"><br>
+            <label for="telefono">Numero telefonico</label><br>
+            <input type="number" name="telefono" id="telefono" required placeholder="Ingrese número"><br><br>
+            <input type="submit" value="Enviar" style="font-size:100%;">
+
+
+
+        </form>
+    </body>
+    
+</head>   
+</html>
